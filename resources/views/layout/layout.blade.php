@@ -15,11 +15,13 @@
     @yield('main')
 
     @yield('internal')
-    @yield('external')
+    @yield('External')
 
     @yield('pure')
     @yield('ReceiptDetection')
     @yield('thefindings')
+    
+    @yield('PersonalConvenant')
 
 </body>
 </html>

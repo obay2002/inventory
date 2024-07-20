@@ -8,10 +8,57 @@ class InventoryController extends Controller
 {
     /**
      * Display a listing of the resource.
+     * 
      */
-    public function index()
+
+     public function showMain()
     {
         return view('main');
+    }
+
+    public function showPersonalConvenat()
+    {
+        return view('PersonalCovenant');
+    }
+
+    public function showExchangeDocument()
+    {
+        return view('Documents.Exchange');
+    }
+
+    public function showReceivingDocument()
+    {
+        return view('Documents.Receiving');
+    }
+
+    public function showExternalTransfer()
+    {
+        return view('Transfer.External');
+    }
+
+    public function showInternalTransfer()
+    {
+        return view('Transfer.Internal');
+    }
+
+    public function showPureDsclosure()
+    {
+        return view('Reveal.PureDsclosure');
+    }
+
+    public function showReceiptDetection()
+    {
+        return view('Reveal.ReceiptDetection');
+    }
+
+    public function showTheFindings()
+    {
+        return view('Reveal.TheFindings');
+    }
+
+    public function index()
+    {
+        // return view('main');
     }
 
     /**
