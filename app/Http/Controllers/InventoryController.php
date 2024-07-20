@@ -56,6 +56,11 @@ class InventoryController extends Controller
         return view('Reveal.TheFindings');
     }
 
+    public function showAddReceiptDocument()
+    {
+        return view('Documents.Add_receipt_document');
+    }
+
     public function index()
     {
         // return view('main');

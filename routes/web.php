@@ -18,4 +18,5 @@ Route::get('/internal-transfer', [InventoryController::class, 'showInternalTrans
 Route::get('/pure-disclosure', [InventoryController::class, 'showPureDsclosure'])->name('pureDisclosure');
 Route::get('/receipt-detection', [InventoryController::class, 'showReceiptDetection'])->name('receiptDetection');
 Route::get('/the-findings', [InventoryController::class, 'showTheFindings'])->name('theFindings');
+Route::get('/Add-receipt', [InventoryController::class, 'showAddReceiptDocument'])->name('AddReceiptDocument');
 });
